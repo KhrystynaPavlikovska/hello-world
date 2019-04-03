@@ -1,0 +1,35 @@
+Microsoft Windows [Version 10.0.17134.648]
+(c) Корпорація Майкрософт (Microsoft Corporation), 2018. Усі права захищено.
+
+C:\Users\Lenovo>cmd
+Microsoft Windows [Version 10.0.17134.648]
+(c) Корпорація Майкрософт (Microsoft Corporation), 2018. Усі права захищено.
+
+C:\Users\Lenovo>ipconfig/all|More
+
+Windows IP Configuration
+
+   Host Name . . . . . . . . . . . . : LAPTOP-KQF18V59
+   Primary Dns Suffix  . . . . . . . :
+   Node Type . . . . . . . . . . . . : Hybrid
+   IP Routing Enabled. . . . . . . . : No
+   WINS Proxy Enabled. . . . . . . . : No
+   DNS Suffix Search List. . . . . . : www.tendawifi.com
+
+Ethernet adapter Ethernet:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Realtek PCIe GBE Family Controller
+   Physical Address. . . . . . . . . : 54-E1-AD-1B-FC-2E
+   DHCP Enabled. . . . . . . . . . . : No
+   Autoconfiguration Enabled . . . . : Yes
+
+Wireless LAN adapter П?дключення через локальну мережу* 2:
+
+   Media State . . . . . . . . . . . : Media disconnected
+   Connection-specific DNS Suffix  . :
+   Description . . . . . . . . . . . : Microsoft Wi-Fi Direct Virtual Adapter
+   Physical Address. . . . . . . . . : 7E-67-A2-E1-64-F5
+   DHCP Enabled. . . . . . . . . . . : Yes
+   Autoconfiguration Enabled . . . . : Yes
