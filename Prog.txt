@@ -1,0 +1,32 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace ConsoleApp1
+{
+	class Program
+	{
+		static void Main(string[] args)
+		{
+			DateTime firstDate = DateTime.Parse(Console.ReadLine());
+			int days = (DateTime.Today - firstDate).Days;
+			int fridaysCount = 0;
+
+			for (int i = 0; i < days; i++)
+			{
+				if (firstDate.Day == 13 && firstDate.DayOfWeek == DayOfWeek.Friday)
+				{
+					Console.WriteLine(firstDate.ToShortDateString());
+					fridaysCount++;
+				}
+				firstDate = firstDate.AddDays(1);
+			}
+
+			Console.WriteLine(fridaysCount);
+			Console.ReadLine();
+		}
+	}
+}
+
